@@ -27,7 +27,7 @@ class PrototypesController < ApplicationController
 
  
 
-
+ 
  def edit
   unless user_signed_in?
     redirect_to action: :index
